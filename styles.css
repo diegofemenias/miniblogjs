@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    margin: auto;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+main {
+    padding: 20px;
+}
+.post {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+#pagination button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#pagination .active {
+    font-weight: bold;
+    background-color: #ddd;
+}
